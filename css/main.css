@@ -1173,7 +1173,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #016b4e;
+  background: #b5950b;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2304,4 +2304,19 @@ embed {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+/*gallery*/
+.masonry {
+  column-count: 3;
+  column-gap: 10px;
+}
+.item {
+  padding: 2px;
+}
+.item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: -6px -6px 20px rgba(0,0,0,0.2);
 }
