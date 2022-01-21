@@ -1173,7 +1173,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #75ffff;
+  background: #e791c2;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2375,7 +2375,7 @@ embed {
   opacity: 0;
   transition: 0.5s;
 }
-.container1:hover .h {
+.container_hover:hover .h {
   transform: translateY(-10px);
   opacity: 1;
 }
