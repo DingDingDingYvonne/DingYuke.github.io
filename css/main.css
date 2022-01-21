@@ -1173,7 +1173,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #b5fff4;
+  background: #ffe39c;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2335,6 +2335,18 @@ embed {
   background-image: url("https://dingyuke-haha.github.io/file/img/drawing/Painting/IMG_4282.JPG");
 }
 .card3 {
+  background-image: url("https://dingyuke-haha.github.io/file/img/drawing/egg/egg3.jpg");
+}
+.card4 {
+  background-image: url("https://dingyuke-haha.github.io/file/img/drawing/ostrich/ostrich3.jpg");
+}
+.card5 {
+  background-image: url("https://dingyuke-haha.github.io/file/img/drawing/light/light1.jpg");
+}
+.card6 {
+  background-image: url("https://dingyuke-haha.github.io/file/img/drawing/sketch_ipad/ipad5.jpg");
+}
+.card7 {
   background-image: url("https://dingyuke-haha.github.io/file/img/drawing/uncategorized/1.jpeg");
 }
 .container .card {
