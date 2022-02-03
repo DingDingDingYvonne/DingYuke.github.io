@@ -1173,7 +1173,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #60ffb8;
+  background: #a1e52e;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2308,7 +2308,7 @@ embed {
 /*gallery*/
 .masonry {
   column-count: 3;
-  column-gap: 5px;
+  column-gap: 1vw;
 }
 .item img {
   display: block;
@@ -2415,7 +2415,26 @@ embed {
 }
 /*about*/
 .me {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+  display: inline-block;
+  width: 25%;
+  border-radius: 20px;
+  background: #f4effa;
+  border: 0.1vw solid #ccc8d1;
+  padding: 1vw;
+  margin: 0 auto;
+}
+.about {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.about p {
+  background: #f4effa;
+  border: 0.1vw solid #ccc8d1;
+  border-radius: 10px;
+}
+.aboutme {
+  text-align: center;
+}
+.barbie {
+  width: 50%;
 }
